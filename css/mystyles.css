@@ -1,0 +1,13 @@
+body{
+    font-family: 'Comic Sans MS', Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(249, 231, 197);
+}
+/* subheading is not a reserve element so we need a . infront of it */
+/* anything in the parenthesis will happen to what is infront of the parenthesis */
+h1,h2,h3,.subheading{
+    /* !important just means overwrite everything */
+    font-family: 'Comic Sans MS', Georgia, 'Times New Roman', Times, serif !important;
+}
+a:hover{
+    color: orange !important;
+}

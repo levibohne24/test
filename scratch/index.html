@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- html works linearly, it goes from top to bottom, whatever is last overrules before -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- the tag of the name of the website -->
+    <title>Ice Cream Yum</title>
+    <!-- links the styles.css sheet and apply them on here, this will copy to everypage on the website -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="divstyles.css">
+</head>
+<body>
+    <div class="common nav">
+         <!-- links another page that you can turn to, a = creates link -->
+        <!-- &nbsp, just forces a space in there. non breaking space -->
+        <a href="resume.html">RESUME</a> &nbsp; | &nbsp;
+        <!-- target = _blank will open a new tab in the browser when you click on it -->
+        <a href="https://www.gaskination.com" target="_blank">Gaskination</a> &nbsp; | &nbsp;
+        <!-- ../ has you go up to the next file in your directory -->
+        <a href="../index.html" >Blog</a> &nbsp; | &nbsp;
+        <!-- # means stay on this page and look for an id -->
+         <!-- takes you to the bottom of the page, it is an anchor to somewhere else -->
+        <a href="#bottom">Bottom</a>
+    </div>
+    <div class="common header">
+        <h1>Ice Cream Website</h1>
+    </div>
+    <div class="common content">
+            <!-- class = an attribute of the element -->
+    <!-- h1,h2,h3,h4,h5,h6 = header -->
+    <h2>Created by Levi Bohne</h2>
+    <!-- p = paragraph -->
+    <p>America's number one dessert since 2 BC</p>
+     <!-- tab down -->
+<br> 
+<br>
+<!-- inserting an image, make sure you save to the same file -->
+ <center>
+    <!-- this right below creates a link with the image to a new tab -->
+    <a href="https://www.byu.edu" target="_blank"><img src="https://w7.pngwing.com/pngs/182/189/png-transparent-byu-logo-american-university-sports-teams-logos.png" alt="byu logo" ></a>
+    <!-- alt= what shows if link is broken for image -->
+<img src="download.jpg" alt="ice cream cone" height="500px"> 
+<img src="Ice Cream sundae.jpg" alt="ice cream sundae">
+</center>
+<h3>Ice Cream Rankings</h3>
+<!-- ol = ordered list, 1,2,3 -->
+    <ol>
+        <!-- li = list-->
+        <li>Chocolate</li>
+        <li>Oreo</li>
+        <li>Vanilla</li>
+    </ol>
+    <br>
+<h3>Ice Cream Toppings</h3>
+<!-- ul = bullet point list -->
+    <ul>
+        <li>Sprinkles</li>
+        <li>Whipped Cream</li>
+        <li>Chocolate Syrup</li>
+        <ul>
+          <li>Hot Fudge</li>  
+        </ul>
+    </ul>
+    <!-- link to external website, link goes in quotes, text for the tag will look like on website goes between the ><-->
+     <!-- a = external link -->
+    <a href="https://barefeetinthekitchen.com/homemade-ice-cream-recipe/">Ice Cream Recipe</a> <br>
+    <!-- takes me to the top of the page, on page anchor -->
+    <a href="#">Top</a>   
+    <br><br><br>
+    <br id="bottom">
+    </div>
+    <div class="common footer">
+        Copyright &copy; 2025 Levi Bohne
+    </div>
+
+</body>
+</html>

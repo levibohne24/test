@@ -1,0 +1,41 @@
+.common{
+    /* . becuase we are making it up */
+    /* border: 2px solid white; */
+    position: absolute;
+    /* absolute means i assume nothing but top left */
+}
+.nav{
+    /* relatively postition as far right as it can */
+    position: relative;
+    float: right;
+    font-size: 75%;
+}
+.footer{
+    /* left side is 0px away from the left side of screen, and similar to rest */
+    position: fixed;
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    /* 50% makes it half the size it normally is  */
+    font-size: 50%;
+    font-style: italic;
+    text-align: center; 
+    background-color: rgba(169, 169, 169, .75);
+    color: black;
+}
+.header{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* puts the header in the center */
+    text-align: center;
+    /* z depth it will make it deeper you so that you can click on links, one is above the other */
+    z-index: -1;
+}
+.content{
+    top: 70px;
+    left: 10%;
+    right: 10%;
+    bottom: -45px;
+    background-color: rgba(119, 168, 167, 0.5);
+}
